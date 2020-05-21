@@ -228,7 +228,7 @@ namespace Elements.Geometry
             result = default(Vector3);
             return false;
         }
-
+        // Check Zero
         private bool IsAlmostZero(double a)
         {
             return Math.Abs(a) < Vector3.EPSILON;
